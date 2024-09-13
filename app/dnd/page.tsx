@@ -35,6 +35,9 @@ export default function Home() {
       <SideBar />
       <div className="m-24 w-full">
         <div className="text-3xl font-bold">카테고리 관리</div>
+        <div className="text-xl">
+          @hello-pangea/dnd를 이용한 중첩 dnd 페이지입니다.
+        </div>
         <div className="my-8 h-96 rounded-3xl border bg-slate-50">
           <EditCategorySection allCategories={allCategories} />
         </div>
