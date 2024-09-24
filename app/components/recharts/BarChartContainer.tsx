@@ -27,7 +27,7 @@ const BarChartContainer = ({ data }: ChartPropsType) => {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis />
-        <Tooltip content={<BarChartTooltip />} />
+        <Tooltip cursor={false} content={<BarChartTooltip />} />
         <Legend />
         <Bar dataKey="uv" fill="#FFD1DB" radius={[10, 10, 0, 0]} />
         <Bar
