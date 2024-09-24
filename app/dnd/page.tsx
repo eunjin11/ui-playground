@@ -1,5 +1,5 @@
 import SideBar from "../components/SideBar";
-import EditCategorySection from "../components/EditCategorySection";
+import EditCategorySection from "../components/dnd/EditCategorySection";
 import { CategoryType } from "../utils/types";
 
 const allCategories: CategoryType[] = [
@@ -29,7 +29,7 @@ const allCategories: CategoryType[] = [
   },
 ];
 
-export default function Home() {
+const DndPage = () => {
   return (
     <section className="max-w-[1800px] mx-auto flex">
       <SideBar />
@@ -44,4 +44,6 @@ export default function Home() {
       </div>
     </section>
   );
-}
+};
+
+export default DndPage;

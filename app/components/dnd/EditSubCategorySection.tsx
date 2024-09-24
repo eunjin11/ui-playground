@@ -6,7 +6,7 @@ import {
   Droppable,
   DropResult,
 } from "@hello-pangea/dnd";
-import { CategoryType } from "../utils/types";
+import { CategoryType } from "../../utils/types";
 
 interface EditSubCategorySectionProps {
   subCategories: CategoryType[];

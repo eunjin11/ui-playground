@@ -13,6 +13,11 @@ const SideBar = () => {
           dnd
         </div>
       </Link>
+      <Link href={"/recharts"}>
+        <div className="text-2xl font-bold py-4 px-8 cursor-pointe rounded-full">
+          recharts
+        </div>
+      </Link>
     </div>
   );
 };
