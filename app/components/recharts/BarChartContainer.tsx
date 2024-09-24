@@ -29,8 +29,13 @@ const BarChartContainer = ({ data }: ChartPropsType) => {
         <YAxis />
         <Tooltip content={<BarChartTooltip />} />
         <Legend />
-        <Bar dataKey="pv" fill="#8884d8" />
-        <Bar dataKey="uv" fill="#82ca9d" />
+        <Bar dataKey="pv" fill="#8884d8" radius={[10, 10, 0, 0]} />
+        <Bar
+          dataKey="uv"
+          fill="#82ca9d"
+          radius={[10, 10, 0, 0]}
+          maxBarSize={40}
+        />
       </BarChart>
     </ResponsiveContainer>
   );
