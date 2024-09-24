@@ -53,7 +53,6 @@ const RechartsPage = () => {
       <div className="m-24 w-full">
         <div className="text-3xl font-bold">recharts-BarChart</div>
         <div className="text-lg my-4">recharts를 이용한 BarChart 예제</div>
-        {/* <BarChartContainer data={data} /> */}
         <DynamicChartWrapper data={data} />
       </div>
     </section>
