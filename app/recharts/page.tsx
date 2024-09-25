@@ -48,7 +48,7 @@ const DynamicChartWrapper = dynamic(
 
 const RechartsPage = () => {
   return (
-    <section className="max-w-[1800px] mx-auto flex">
+    <section className="max-w-[1800px] mx-auto flex ">
       <SideBar />
       <div className="m-24 w-full">
         <div className="text-3xl font-bold">recharts-BarChart</div>
